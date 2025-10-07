@@ -38,9 +38,7 @@ const GameInfo = ({ history, jumpTo }) => {
                 </span>
                 <span className="move-position">
                   {i !== 0 &&
-                    `(row ${Math.floor(item.lastMove / 3)}, col ${
-                      item.lastMove % 3
-                    })`}
+                    `(${Math.floor(item.lastMove / 3)}, ${item.lastMove % 3})`}
                 </span>
               </div>
             </li>
