@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Square from "./square";
+import Square from "./Square";
 import calculateWinner from "../utils/calculateWinner";
 const Board = ({
   xIsNext,
