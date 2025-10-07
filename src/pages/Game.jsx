@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Board from "../components/Board";
-import Square from "../components/square";
+
 import GameInfo from "../components/GameInfo";
 
 const Game = () => {
